@@ -20,7 +20,7 @@
 // console.log(name);
 // console.log(name.charAt(2));
 // console.log(name.indexOf("h"));
-// console.log(name.toUpperCase()); 
+// console.log(name.toUpperCase());
 
 // to uppercase auto suggestion not came when you give variable name to name.
 // let a = "Bibhuti";
@@ -36,6 +36,9 @@
 // console.log(num.toPrecision(4));
 // console.log(num1.toLocaleString());
 // console.log(Number.MAX_SAFE_INTEGER);
+// let num_2 = 10;
+// console.log(num_2.toString(2));
+// convert to base 2
 
 // Maths
 
@@ -61,4 +64,14 @@
 // let my_string = String(a);
 // console.log(my_string);
 
+// let num = Number("hh");
+// console.log(Number.isNaN(num));
+
+// console.log(num);
+
+// let num_1 = 45.23589;
+// console.log(num_1.toPrecision(4));
+// gives total figure
+// console.log(num_1.toFixed(4));
+// giver num after decimal
 
