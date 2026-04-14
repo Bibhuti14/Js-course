@@ -26,12 +26,12 @@
 
 // Nubers
 
-// let num=12.625
-// let num1=10000000
-// console.log(num.toFixed(2));
-// console.log(num.toPrecision(4));
-// console.log(num1.toLocaleString());
-// console.log(Number.MAX_SAFE_INTEGER);
+let num=12.625
+let num1=10000000
+console.log(num.toFixed(2));
+console.log(num.toPrecision(4));
+console.log(num1.toLocaleString());
+console.log(Number.MAX_SAFE_INTEGER);
 
 // Maths
 
