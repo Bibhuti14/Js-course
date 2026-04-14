@@ -44,4 +44,7 @@
 let x=12
 console.log(x);
 
-
+for (let x = 0; x < array.length; x++) {
+  const element = array[x];
+  
+}
