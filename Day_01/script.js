@@ -20,7 +20,11 @@
 // console.log(name);
 // console.log(name.charAt(2));
 // console.log(name.indexOf("h"));
-// console.log(name.toUpperCase());
+// console.log(name.toUpperCase()); 
+
+// to uppercase auto suggestion not came when you give variable name to name.
+// let a = "Bibhuti";
+// console.log(a.toUpperCase());
 
 // console.log(name.concat(sur));
 
@@ -41,10 +45,20 @@
 
 // console.log();
 
-let x=12
-console.log(x);
+// let x=12
+// console.log(x);
 
-for (let x = 0; x < array.length; x++) {
-  const element = array[x];
-  
-}
+// for (let x = 0; x < array.length; x++) {
+//   const element = array[x];
+
+// }
+
+// type conversion
+
+// let a = ["he", "she", "it"];
+// let my_string_1=a.toString()
+// console.log(my_string);
+// let my_string = String(a);
+// console.log(my_string);
+
+
