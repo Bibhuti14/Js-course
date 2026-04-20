@@ -33,6 +33,11 @@
 // arr_3 = arr.concat(arr_2);
 // console.log(arr_3);
 
+// let marvel = ["Thor", "Hulk", "IronMan"];
+// let dc = ["Batman", "Superman", "Flash"];
+// let new_comic = [...dc, ...marvel];
+// console.log(new_comic);
+
 // Date
 
 // my_date = new Date();
