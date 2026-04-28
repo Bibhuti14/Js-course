@@ -65,5 +65,33 @@
 //   },
 // };
 // Tobject.myFunc();
+// console.log(this);
 
+// const arrw = (num1, num2) => {
+//   return num1 + num2;
+// };
+
+// if () use no return use
+
+// const arrw = (num1, num2) => num1 + num2;
+
+// for obj print
+
+// const arrw = (num1, num2) => ({ username: "Bibhuti" });
+
+// console.log(arrw(4, 5));
+
+// iife
+
+// (function func() {
+//   console.log("DB connected");
+// })();
+
+// (() => {
+//   console.log("DB connected 2");
+// })();
+
+// ((a) => {
+//   console.log(`DB connected 2 ${a}`);
+// })("Bivu");
 
