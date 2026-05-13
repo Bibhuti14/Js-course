@@ -90,12 +90,40 @@
 // selectBook = books.filter((bk) => bk.genre === "History" && bk.edition > 1996);
 // console.log(selectBook);
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+// let arr = [1, 2, 3, 4, 5, 6, 7];
 
-let newArr1 = arr
-  .map((i) => i * 10)
-  .map((i) => i + 1)
-  .filter((i) => i > 40);
+// let newArr1 = arr
+//   .map((i) => i * 10)
+//   .map((i) => i + 1)
+//   .filter((i) => i > 40);
 
-  console.log(newArr1);
-  
+//   console.log(newArr1);
+
+// let arr = [1, 2, 3];
+
+// let sumNum = arr.reduce((acc, curval) => acc + curval, 0);
+
+// console.log(sumNum);
+
+// const shoppingCart = [
+//   {
+//     itemName: "js course",
+//     price: 2999,
+//   },
+//   {
+//     itemName: "py course",
+//     price: 999,
+//   },
+//   {
+//     itemName: "mobile dev course",
+//     price: 5999,
+//   },
+//   {
+//     itemName: "data science course",
+//     price: 12999,
+//   },
+// ];
+
+// let pay = shoppingCart.reduce((acc, item) => acc + item.price, 0);
+// console.log(pay);
+
