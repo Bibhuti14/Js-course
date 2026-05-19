@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colorChanger</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 8px;
+      }
+      #red {
+        background-color: red;
+      }
+      #green {
+        background-color: green;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+      #black {
+        background-color: black;
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1{
+        color: rgb(97, 95, 160);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tap to Change Color</h1>
+    <span class="button" id="red">red</span>
+    <span class="button" id="green">green</span>
+    <span class="button" id="yellow">yellow</span>
+    <span class="button" id="black">black</span>
+  </body>
+  <script src="p1.js"></script>
+</html>
