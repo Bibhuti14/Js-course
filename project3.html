@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .center {
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+      }
+      #clock {
+        height: 45px;
+        width: 100px;
+        background-color: rgb(254, 240, 240);
+        color: rgb(0, 0, 0);
+        border-radius: 6px;
+        font-size: large;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        color: bisque;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div class="content"><span>Your Time</span></div>
+      <div id="clock"></div>
+    </div>
+  </body>
+  <script src="p3.js"></script>
+</html>
